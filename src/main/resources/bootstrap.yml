@@ -12,8 +12,6 @@ spring:
     name: gateway-server-example
 server:
   port: 8080
-  servlet:
-    context-path: /gateway/
 eureka:
   instance:
     prefer-ip-address: true
