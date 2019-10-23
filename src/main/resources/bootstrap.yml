@@ -2,6 +2,8 @@ spring:
   profiles:
     active: dev
   cloud:
+    gateway:      discovery:        locator:
+#        开启通过服务中心的自动根据 serviceId 创建路由的功能          enabled: true
     config: 
       label: master
       profile: dev
